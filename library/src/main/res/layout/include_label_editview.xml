@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_input_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/lev_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minEms="5"
+        android:padding="@dimen/padding_normal"
+        android:text="123"/>
+
+    <EditText
+        android:id="@+id/lev_edit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:textSize="14sp"
+        android:gravity="center_vertical"
+        android:padding="@dimen/padding_normal"/>
+
+    <TextView
+        android:id="@+id/lev_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/activity_register_code_selector"
+        android:gravity="center"
+        android:minEms="4"
+        android:padding="@dimen/padding_normal"
+        android:text="获取验证码"
+        android:textColor="@color/white" />
+
+</LinearLayout>

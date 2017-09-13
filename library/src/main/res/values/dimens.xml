@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="padding_small">5dp</dimen>
+    <dimen name="padding_normal">10dp</dimen>
+    <dimen name="padding_middle">15dp</dimen>
+    <dimen name="padding_large">20dp</dimen>
+
+    <dimen name="small_margin">5dp</dimen>
+    <dimen name="normal_margin">10dp</dimen>
+    <dimen name="margin_middle">15dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+    <dimen name="margin_13">13dp</dimen>
+
+    <dimen name="littel_text">12sp</dimen>
+    <dimen name="small_text">14sp</dimen>
+    <dimen name="normal_text">16sp</dimen>
+    <dimen name="middle_text">18sp</dimen>
+    <dimen name="large_text">20sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="custom_diver">1dp</dimen>
+    <dimen name="small_custom_diver">0.1dp</dimen>
+    <dimen name="little_custom_diver">0.5dp</dimen>
+    <dimen name="rectangular_corner">3dp</dimen>
+
+</resources>

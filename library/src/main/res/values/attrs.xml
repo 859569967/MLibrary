@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MLabelEditView">
+        <attr name="m_lev_label" format="string" />
+        <attr name="m_lev_edit_hint" format="string" />
+        <attr name="m_lev_count" format="string" />
+        <attr name="m_lev_edit" format="string" />
+        <attr name="m_lev_count_visibilty">
+            <enum name="visiable" value="0" />
+            <enum name="gone" value="1" />
+            <enum name="invisiable" value="2" />
+        </attr>
+        <attr name="m_lev_label_visibilty">
+            <enum name="visiable" value="0" />
+            <enum name="gone" value="1" />
+            <enum name="invisiable" value="2" />
+        </attr>
+        <attr name="m_lev_count_color" format="reference" />
+        <attr name="m_lev_ems" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="MCheckEditView">
+        <attr name="m_check_label" format="string" />
+        <attr name="m_check_edit_hint" format="string" />
+        <attr name="m_check_edit_text" format="string" />
+        <attr name="m_check_edit_check" format="boolean" />
+        <attr name="m_check_bg" format="reference" />
+        <attr name="m_check_ems" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="MCheckTextView">
+        <attr name="m_check_text" format="string" />
+        <attr name="m_ischeck" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MImgTextView">
+        <attr name="m_img_text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="NumberProgressBar">
+        <attr name="progress_current" format="integer" />
+        <attr name="progress_max" format="integer" />
+
+        <attr name="progress_unreached_color" format="color" />
+        <attr name="progress_reached_color" format="color" />
+
+        <attr name="progress_reached_bar_height" format="dimension" />
+        <attr name="progress_unreached_bar_height" format="dimension" />
+
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+
+        <attr name="progress_text_offset" format="dimension" />
+
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+
+        <attr name="numberProgressBarStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MLabelSpinnerView">
+        <attr name="m_label_spinner_left_text" format="string" />
+        <attr name="m_label_spinner_right_text" format="string" />
+    </declare-styleable>
+
+</resources>
