@@ -1,19 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.morse.mlibrary.MainActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <com.morse.library.views.EditTextWithDel
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.morse.library.views.MCheckEditView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:m_check_edit_check="true"
+        app:m_check_edit_hint="请输入内容"
+        app:m_check_label="测试"/>
 
-</android.support.constraint.ConstraintLayout>
+    <com.morse.library.views.MCheckTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:m_ischeck="true"
+        app:m_check_text="测试"/>
+
+    <com.morse.library.views.MImgTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:m_img_text="测试"/>
+
+    <com.morse.library.views.MLabelEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:m_lev_label="测试"
+        app:m_lev_edit_hint="请输入内容"/>
+
+    <com.morse.library.views.MLabelSpinnerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:m_label_spinner_left_text="测试"
+        app:m_label_spinner_right_text="个"/>
+
+</LinearLayout>
