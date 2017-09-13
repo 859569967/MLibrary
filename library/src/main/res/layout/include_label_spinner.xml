@@ -9,8 +9,7 @@
         android:padding="@dimen/padding_normal"
         android:singleLine="true"
         android:text="每天加人上限"
-        android:textSize="@dimen/littel_text"
-        />
+        android:textSize="@dimen/littel_text"/>
 
     <Spinner
         android:id="@+id/s_spinner"
