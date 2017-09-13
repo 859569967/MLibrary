@@ -49,6 +49,7 @@
  * setSelection(int selection) 设置Spinner默认值；
  * setSelectByValue(String value) 设置Spinner默认值；
  * getSpinner() 获取Spinner控件；
+ 
 ## 使用方法
 <pre><code>
 allprojects {
