@@ -58,8 +58,7 @@ allprojects {
 		maven { url 'https://jitpack.io' }
 	}
 }
-</code></pre>
-<pre><code>	
+
 dependencies {
     compile 'com.github.fishsoft:MLibrary:1.0'
 }
