@@ -1,7 +1,7 @@
 # MLibrary
 ## 自定义基础类库
 ##### EditTextWithDel
- * 带删除控件的输入框，这个是网上下载过来的文件，使用方法可以到网上去找；
+ * 带删除控件的输入框，这个是网上下载过来的文件，使用方法可以到[网上](http://blog.csdn.net/qq_20785431/article/details/50762834)去找；
 ##### MCheckEditView
  * 控件由一个TextView+EditText+CheckBox组成：
  * setLabel(String label) 设置TextView文本；
