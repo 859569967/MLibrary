@@ -49,3 +49,17 @@
  * setSelection(int selection) 设置Spinner默认值；
  * setSelectByValue(String value) 设置Spinner默认值；
  * getSpinner() 获取Spinner控件；
+## 使用方法
+<pre><code>
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+</code></pre>
+<pre><code>	
+dependencies {
+    compile 'com.github.fishsoft:MLibrary:1.0'
+}
+</code></pre>
